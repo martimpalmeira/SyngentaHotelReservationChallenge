@@ -18,4 +18,6 @@ public class FailingTest {
        assertEquals("Ridgewood", Hotel.getCheapestHotel("Rewards: 26Mar2009(thur), 27Mar2009(fri), 28Mar2009(sat)"));
    }
    
+   
+   
 }
