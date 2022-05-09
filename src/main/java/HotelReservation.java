@@ -27,6 +27,8 @@ public class HotelReservation {
 		return (HotelServices.getCheapestHotel(totalHotel1, totalHotel2, totalHotel3, hotel1, hotel2, hotel3));
 	}
 
+
+	//Receives the input text and returns an array with customer status and days of the week
 	public String[] returnRelevantInformation(String txt) {
 		String txtNoSpace = txt.replace(" ", "");
 		String txtNoComma = txtNoSpace.replace(",", "");
